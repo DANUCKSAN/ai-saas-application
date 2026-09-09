@@ -5,9 +5,10 @@ import Link from "next/link";
 import React from "react";
 
 const navItems = [
-  { name: "Dashboard", href: "/" },
-  { name: "My Projects", href: "/projects" },
-  { name: "Sales", href: "/sales" },
+  { name: "Home", href: "/" },
+  { name: "Companions", href: "/companions" },
+  { name: "My Journey", href: "/my-journey" },
+  { name: "Sign in", href: "/sign-in" },
 ];
 
 const NavItems = () => {
